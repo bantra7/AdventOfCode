@@ -17,7 +17,12 @@ It works with [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/index
 Run
 ```
 python -m pip install cookiecutter
-python -m cookiecutter folder_day_template -o 2023/
+
+# For current day
+python -m cookiecutter . -o 2023/ --no-input
+
+# For another day
+python -m cookiecutter . -o 2023/
 ```
 
 ### Run script for solutions

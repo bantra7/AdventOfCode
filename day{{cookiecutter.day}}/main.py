@@ -1,5 +1,5 @@
 def main():
-    with open('{{cookiecutter.daynumber}}.txt') as f:
+    with open('{{cookiecutter.day}}.txt') as f:
         data = f.read().split('\n')
 
 
