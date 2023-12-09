@@ -3,10 +3,10 @@
 My solutions to [Advent of code](https://adventofcode.com/) puzzles.
 
 For each day, you have 5 files:
-* **_i_**.md - solution outputs of the day
-* **_i_**.txt - input of the day
-* **_it_**.txt - test input of the day
-* main_p1.py - script for part 1
+* i.md - solution outputs of the day _(ex: 13.md)_
+* i.txt - input of the day _(ex: 13.txt)_
+* it.txt - test input of the day _(ex: 13t.md)_
+* main_p1.py - script for part 1 
 * main_p2.py - script for part 1
 
 ### Creating day folder
@@ -16,12 +16,13 @@ It works with [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/index
 
 Run
 ```
+# Install cookiecutter module
 python -m pip install cookiecutter
 
-# For current day
+# Generate for current day
 python -m cookiecutter . -o 2023/ --no-input
 
-# For another day
+# Generate for another day
 python -m cookiecutter . -o 2023/
 ```
 
