@@ -4,7 +4,6 @@ def main():
     m = [[c for c in line] for line in data]
     I = len(m)
     J = len(m[0])
-    c_n = 1000000000
     s = 0
     modified = True
     while modified:
